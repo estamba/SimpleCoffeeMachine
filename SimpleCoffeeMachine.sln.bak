@@ -7,9 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleCoffeeMachine.Core.Do
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{DA6FE2D8-B1FF-4D69-AFCF-5981840300CD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleCoffeeMachine.Core.Interfaces", "SimpleCoffeeMachine.Core.Interfaces\SimpleCoffeeMachine.Core.Interfaces.csproj", "{2390C70D-7F18-422C-8049-B6387198186C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleCoffeeMachine.Core.Interfaces", "ClassLibrary1\SimpleCoffeeMachine.Core.Interfaces.csproj", "{2390C70D-7F18-422C-8049-B6387198186C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleCoffeeMachine.Core.Services", "SimpleCoffeeMachine.Core.Services\SimpleCoffeeMachine.Core.Services.csproj", "{633E0C56-F910-41DB-BC53-3DB6B7D34FA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleCoffeeMachine.Core.Services", "ClassLibrary2\SimpleCoffeeMachine.Core.Services.csproj", "{633E0C56-F910-41DB-BC53-3DB6B7D34FA5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpeCoffeeMachine", "SimpeCoffeeMachine\SimpeCoffeeMachine.csproj", "{F9D59588-2AFE-46E3-8F32-D747D9CBCB3D}"
 EndProject

@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SimpleCoffeeMachine.Core.Interfaces\SimpleCoffeeMachine.Core.Interfaces.csproj" />
+    <ProjectReference Include="..\SimpleCoffeeMachine.Core.Services\SimpleCoffeeMachine.Core.Services.csproj" />
+    <ProjectReference Include="..\SimpleCoffeeMachine.Domain\SimpleCoffeeMachine.Core.Domain.csproj" />
+  </ItemGroup>
+
+
+</Project>

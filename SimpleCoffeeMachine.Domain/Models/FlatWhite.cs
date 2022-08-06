@@ -4,10 +4,11 @@ using System.Text;
 
 namespace SimpleCoffeeMachine.Core.Domain.Models
 {
-    public class Expresso : Coffee
+    public class FlatWhite:Coffee
     {
-        public Expresso(CoffeeType type, CoffeeVolume volume) : base(type, volume)
+        public FlatWhite(CoffeeType type, CoffeeVolume volume) : base(type, volume)
         {
+
         }
     }
 }

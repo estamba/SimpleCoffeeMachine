@@ -4,14 +4,14 @@ using System.Text;
 
 namespace SimpleCoffeeMachine.Core.Domain.Models
 {
-    public class Coffee
+    public abstract class Coffee
     {
-        public Coffee(CoffeeType type, double volume)
+        public Coffee(CoffeeType type, CoffeeVolume volume)
         {
             this.Type = type;
             this.Volume = volume;
         }
         public CoffeeType Type { get; }
-        public double Volume { get; }
+        public CoffeeVolume Volume { get; }
     }
 }
