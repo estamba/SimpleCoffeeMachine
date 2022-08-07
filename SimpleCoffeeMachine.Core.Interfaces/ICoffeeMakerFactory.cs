@@ -7,6 +7,6 @@ namespace SimpleCoffeeMachine.Core.Interfaces
 {
     public interface ICoffeeMakerFactory
     {
-        ICoffeeMaker CreateCoffeeMaker(CoffeeType coffeeType)
+        ICoffeeMaker CreateCoffeeMaker(CoffeeType coffeeType);
     }
 }

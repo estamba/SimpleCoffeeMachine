@@ -17,12 +17,14 @@ namespace SimpleCoffeeMachine.Core.Services
 
         public ICoffeeMaker CreateCoffeeMaker(CoffeeType coffeeType)
         {
-            if(coffeeType == CoffeeType.Expresso)
-                return new ExpressoMaker(resourceService);
-
-            if (coffeeType == CoffeeType.Flatwhite)
-                return new FlatWhiteMaker(resourceService);
-            throw new ArgumentException("Coffee option not available");
+            return coffeeType switch
+            {
+                CoffeeType.Expresso => new ExpressoMaker(resourceService),
+                CoffeeType.Americano => new AmericanoMaker(resourceService),
+                CoffeeType.Flatwhite => new FlatWhiteMaker(resourceService),
+                _ => throw new ArgumentException("Coffee option not available")
+            };
+            
         }
     }
 }
