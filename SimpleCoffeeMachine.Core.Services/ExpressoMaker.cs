@@ -14,8 +14,9 @@ namespace SimpleCoffeeMachine.Core.Services
         }
         public Coffee Prepare(CoffeeVolume volume)
         {
+            //make the coffee depending on the volume
             var ingridientVolume = 100;
-            if(!resourceService.IsAVailable(IngredientType.Beans, ingridientVolume))
+            if(!resourceService.IsAvailable(IngredientType.Beans, ingridientVolume))
             {
 
             }
