@@ -4,7 +4,7 @@ namespace SimpleCoffeeMachine.Core.Interfaces
 {
     public interface IResourceService
     {
-        bool IsVailable(IngredientType type, double volume);
+        bool IsAVailable(IngredientType type, double volume);
         Ingredient Get(IngredientType ingredient, double volume);
     }
 }

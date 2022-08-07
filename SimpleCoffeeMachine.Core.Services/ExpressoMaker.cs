@@ -15,13 +15,13 @@ namespace SimpleCoffeeMachine.Core.Services
         public Coffee Prepare(CoffeeVolume volume)
         {
             var ingridientVolume = 100;
-            if(!resourceService.IsVailable(IngredientType.Beans, ingridientVolume))
+            if(!resourceService.IsAVailable(IngredientType.Beans, ingridientVolume))
             {
 
             }
             var beans = resourceService.Get(IngredientType.Beans, ingridientVolume);
             //some mixing of ingridients
-            return new Expresso(CoffeeType.Expresso, volume);
+            return new Expresso(volume);
         }
     }
 }

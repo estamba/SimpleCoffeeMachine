@@ -17,7 +17,7 @@ namespace SimpleCoffeeMachine.Core.Services
         public Coffee Prepare(CoffeeVolume volume)
         {
             // prepare the coffee and return it :)
-            return new Americano(CoffeeType.Flatwhite, volume);
+            return new Americano(volume);
         }
     }
 }

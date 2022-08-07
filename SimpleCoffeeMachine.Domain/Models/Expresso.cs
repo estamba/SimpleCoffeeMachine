@@ -6,7 +6,7 @@ namespace SimpleCoffeeMachine.Core.Domain.Models
 {
     public class Expresso : Coffee
     {
-        public Expresso(CoffeeType type, CoffeeVolume volume) : base(type, volume)
+        public Expresso(CoffeeVolume volume) : base(CoffeeType.Expresso, volume)
         {
         }
     }

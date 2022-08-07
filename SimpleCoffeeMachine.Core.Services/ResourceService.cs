@@ -12,7 +12,7 @@ namespace SimpleCoffeeMachine.Core.Services
                return new Ingredient(ingredient, volume);
         }
 
-        public bool IsVailable(IngredientType type, double volume)
+        public bool IsAVailable(IngredientType type, double volume)
         {
             // check the resource store and return results
 

@@ -6,7 +6,7 @@ namespace SimpleCoffeeMachine.Core.Domain.Models
 {
     public class FlatWhite:Coffee
     {
-        public FlatWhite(CoffeeType type, CoffeeVolume volume) : base(type, volume)
+        public FlatWhite(CoffeeVolume volume) : base(CoffeeType.Flatwhite, volume)
         {
 
         }
